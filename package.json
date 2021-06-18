@@ -1,0 +1,39 @@
+{
+  "name": "ui-boilerplate-grunt",
+  "version": "0.0.0",
+  "private": true,
+  "main": "grunt.js",
+  "dependencies": {
+    "babel-eslint": "^10.1.0",
+    "bootstrap": "^5.0.1",
+    "bootstrap-sass": "^3.4.1",
+    "grunt": "^1.4.1",
+    "load-grunt-tasks": "^5.1.0",
+    "semistandard": "^16.0.1"
+  },
+  "scripts": {
+    "dev": "grunt build:dev",
+    "prod": "grunt build:prod"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.5",
+    "@lodder/grunt-postcss": "^3.0.1",
+    "autoprefixer": "^9.8.6",
+    "babelify": "^10.0.0",
+    "grunt-browserify": "^6.0.0",
+    "grunt-contrib-clean": "^2.0.0",
+    "grunt-contrib-connect": "^3.0.0",
+    "grunt-contrib-cssmin": "^4.0.0",
+    "grunt-contrib-uglify": "^5.0.1",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-eslint": "^23.0.0",
+    "grunt-nunjucks-2-html": "^2.2.0",
+    "grunt-postcss": "^0.9.0",
+    "grunt-sass": "^3.1.0",
+    "grunt-sass-lint": "^0.2.4",
+    "node-sass": "^6.0.0",
+    "postcss-flexbugs-fixes": "^5.0.2",
+    "postcss-loader": "^6.1.0"
+  }
+}

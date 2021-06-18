@@ -1,0 +1,28 @@
+rules:
+  extends-before-mixins: 2
+  extends-before-declarations: 2
+  placeholder-in-extend: 2
+  leading-zero: 0
+  property-sort-order: 0
+  no-css-comments: 0
+  space-before-colon: 0
+  no-transition-all: 0
+  zero-unit: 0
+  class-name-format: 0
+  single-line-per-selector: 0
+  force-pseudo-nesting: 0
+  shorthand-values: 0
+  hex-length:
+    - 1
+    - style: long
+  hex-notation:
+    - 1
+    - style: lowercase
+  nesting-depth:
+      - 1
+      - max-depth: 3
+  no-qualifying-elements:
+    - 1
+    - allow-element-with-attribute: true
+      allow-element-with-class: false
+      allow-element-with-id: false

@@ -1,0 +1,12 @@
+$color-btn-primary: $color-black;
+
+.btn {
+  background-color: $color-btn-primary;
+  font-size: 16px;
+  box-sizing: border-box;
+  color: $color-white;
+
+  &::placeholder {
+    color: $color-spacegrey;
+  }
+}
